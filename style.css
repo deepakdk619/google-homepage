@@ -39,6 +39,9 @@ li {
     /* background: blue; */
     list-style: none;
 }
+li a:hover {
+    text-decoration: underline;
+}
 nav ul:nth-child(1) li{
     margin-right: 20px;
 }
@@ -58,4 +61,41 @@ nav .material-icons {
     padding: 0px 12px;
     color: white;
     border-radius: 2px;
+}
+
+
+/* main */
+
+
+
+
+
+/* footer */
+footer {
+    background: rgb(240, 240, 240);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    height: 40px;
+    padding: 0px 30px;
+    border-top: 1px solid rgb(224, 224, 224);
+}
+footer ul {
+    /* background: red; */
+    line-height: 40px;
+}
+footer a{
+    color: rgb(100, 100, 100);
+}
+footer ul:nth-child(1) li {
+    margin-right: 30px;
+}
+footer ul:nth-child(2) li {
+    margin-left: 30px;
+}
+footer ul:nth-child(2) {
+    /* background: green; */
+    justify-content: flex-end;
 }
